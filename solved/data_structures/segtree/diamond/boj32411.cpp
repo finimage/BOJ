@@ -1,7 +1,3 @@
-/*
-그냥 멍청해서 틀린거였구나
-n이 1일 수가 있었네
-*/
 #include<bits/stdc++.h>
 #define ll long long
 #define pii pair<int, int>

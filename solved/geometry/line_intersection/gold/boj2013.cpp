@@ -42,7 +42,7 @@ bool line_cross(co a, co b, co c, co d) {
 	if (A == 0 && B == 0 && C == 0 && D == 0) {
 		return !checking(a.x, b.x, c.x, d.x) && !checking(a.y, b.y, c.y, d.y);
 	}
-	return 0;
+    return A * B <= 0 && C * D <= 0;
 }
 
 int find_(int a) {
